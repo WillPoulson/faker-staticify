@@ -1,6 +1,6 @@
 {
   "name": "faker-staticify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A nodejs cli utility to remove the usage of faker within spec files and replace with static mocks within a directory",
   "main": "dist/faker-staticify.js",
   "repository": {
