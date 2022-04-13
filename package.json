@@ -1,0 +1,27 @@
+{
+  "name": "faker-staticify",
+  "version": "1.0.0",
+  "description": "A nodejs cli utility to remove the usage of faker within spec files and replace with static mocks within a directory",
+  "main": "dist/faker-staticify.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WillPoulson/faker-staticify.git"
+  },
+  "license": "MIT",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "bin": {
+    "faker-staticify": "./dist/faker-staticify.js"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.23"
+  },
+  "dependencies": {
+    "@ngneat/falso": "4.0.0",
+    "glob-promise": "4.2.2"
+  }
+}
