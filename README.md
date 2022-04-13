@@ -1,6 +1,6 @@
-# Faker Staticfy
+# Faker Staticify
 
-A simple typescript library for converting british english to american english.
+A basic nodejs cli utility to remove the usage of faker within spec files and replace with static mocks within a directory. 
 
 ## Installation
 
